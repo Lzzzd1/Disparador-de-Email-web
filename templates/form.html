@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enviar E-mail</title>
+</head>
+<body>
+    <h2>Enviar E-mail</h2>
+    <form method="POST" action="/send_email">
+        Para: <input type="email" name="to"><br>
+        Assunto: <input type="text" name="subject"><br>
+        Conteúdo:<br>
+        <textarea name="content" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
